@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base html</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Bosh menyu</a>
+    <a href="{% url 'about' %}">Haqida</a>
+</header>
+    {%block content%}
+    {%endblock content%}
+</body>
+</html>
